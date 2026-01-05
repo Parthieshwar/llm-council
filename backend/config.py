@@ -7,6 +7,7 @@ load_dotenv()
 
 # OpenRouter API key
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+FRONTEND_URL = os.getenv("FRONTEND_URL")
 
 # Council members - list of OpenRouter model identifiers
 COUNCIL_MODELS = [
